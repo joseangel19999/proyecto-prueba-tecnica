@@ -1,7 +1,6 @@
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
 !**/src/test/**/target/
 
 ### STS ###
@@ -13,11 +12,9 @@ target/
 .springBeans
 .sts4-cache
 
-# Node.js
-node_modules/
-
-# Angular Compilación
-dist/
+# Angular Compilación y node
+src/main/frontend/proyecto-prueba/prueba-app
+src/main/frontend/proyecto-prueba/node_modules
 
 ### IntelliJ IDEA ###
 .idea
